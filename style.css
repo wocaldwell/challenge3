@@ -1,0 +1,15 @@
+
+/* "Fix" the header to the top */
+#header-wrap {
+    background-color: #EBFF67;
+    position: fixed;
+    height: 35%;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Set the rest of the content to start AFTER the header */
+#container-rest {
+    margin-top: 20%;
+}
